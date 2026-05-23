@@ -1,0 +1,32 @@
+const loginLocators = {
+    newUserTitle: '.signup-form h2',
+    nameField: '[data-qa="signup-name"]',
+    emailField: '[data-qa="signup-email"]',
+    signupButton: '[data-qa="signup-button"]',
+    newsletter: '#newsletter',
+    gender: {
+        male: '#id_gender1',
+        female: '#id_gender2',
+    },
+    loginForm: '.login-form',
+    passwordField: '#password',
+    nameSignupField: '#name',
+    emailSignUpField: '#email',
+    firstNameField: '#first_name',
+    lastNameField: '#last_name',
+    companyField: '#company',
+    address1Field: '#address1',
+    stateField: '#state',
+    cityField: '#city',
+    zipcodeField: '#zipcode',
+    mobileNumberField: '#mobile_number',
+    createAccountButton: '[data-qa="create-account"]',
+    countryDropdown: '#country',
+    daysDropdown: '#days',
+    monthsDropdown: '#months',
+    yearsDropdown: '#years',
+    accountCreated: '[data-qa="account-created"] b',
+    continueButton: '[data-qa="continue-button"]',
+};
+
+export default loginLocators;
